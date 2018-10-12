@@ -1,0 +1,48 @@
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+.visit-title {
+margin: auto;
+text-align: center;
+color: #115164;
+}
+
+.pictures-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.picture {
+    margin: 25px 0px 25px 0px ;
+    padding: 45px 20px 10px 20px;
+    background-color: #156D9D ;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+
+.pictures-container {
+display: flex;
+flex-direction: row;
+
+
+}
